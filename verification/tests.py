@@ -1,0 +1,48 @@
+"""
+TESTS is a dict with all you tests.
+Keys for this will be categories' names.
+Each test is dict with
+    "input" -- input data for user function
+    "answer" -- your right answer
+    "explanation" -- not necessary key, it's using for additional info in animation.
+"""
+
+
+TESTS = {
+    "Basics": [
+        {
+            "input": ["a", "b"],
+            "answer": 0
+        },
+        {
+            "input": ["ac", "a"],
+            "answer": 1
+        },
+        {
+            "input": ["aaa", "a"],
+            "answer": 3
+        },
+        {
+            "input": ["av yu", "av"],
+            "answer": 1
+        }
+    ],
+    "Extra": [
+        {
+            "input": ["viva", "vi"],
+            "answer": 1
+        },
+        {
+            "input": ["anna", "an"],
+            "answer": 1
+        },
+        {
+            "input": ["olololo", "lo"],
+            "answer": 3
+        },
+        {
+            "input": ["olololo", "ol"],
+            "answer": 3
+        }
+    ]
+}

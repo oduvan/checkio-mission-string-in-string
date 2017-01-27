@@ -1,0 +1,15 @@
+"use strict";
+
+function strInStr(str1, str2) {
+    return 0;
+}
+
+var assert = require('assert');
+
+if (!global.is_checking) {
+    assert.equal(strInStr("a", "b"), 0)
+    assert.equal(strInStr("ac", "a"), 1)
+    assert.equal(strInStr("aaa", "a"), 3)
+    assert.equal(strInStr("av yu", "av"), 1)
+    console.log("Coding complete? Click 'Check' to review your tests and earn cool rewards!");
+}

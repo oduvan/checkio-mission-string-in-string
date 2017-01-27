@@ -1,0 +1,10 @@
+def str_in_str(str1, str2):
+    return 0
+
+if __name__ == '__main__':
+    #These "asserts" using only for self-checking and not necessary for auto-testing
+    assert str_in_str("a", "b") == 0
+    assert str_in_str("ac", "a") == 1
+    assert str_in_str("aaa", "a") == 3
+    assert str_in_str("av yu", "av") == 1
+    print('Done')
